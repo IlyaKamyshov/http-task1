@@ -10,7 +10,7 @@ public class Main {
 
         String urlCats = "https://raw.githubusercontent.com/netology-code/jd-homeworks/master/http/task1/cats";
 
-        RequestCats.Test(urlCats);
+        RequestCats.makeHttpRequest(urlCats);
 
     }
 

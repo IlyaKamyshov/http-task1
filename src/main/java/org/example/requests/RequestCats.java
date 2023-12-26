@@ -15,7 +15,7 @@ import java.util.List;
 
 public class RequestCats {
 
-    public static void Test(String url) throws IOException {
+    public static void makeHttpRequest(String url) throws IOException {
 
         CloseableHttpClient httpClient = HttpClientBuilder.create()
                 .setDefaultRequestConfig(RequestConfig.custom()
